@@ -22,7 +22,7 @@
 
 * Executar imagem:
 
-      docker run -e CLIENT_ID=your-client-id -e CLIENT_SECRET=your-client-secret =p 8080:8080 --name spotify-api-container rharhuky/spotify-api
+      docker run -e CLIENT_ID=your-client-id -e CLIENT_SECRET=your-client-secret -p 8080:8080 --name spotify-api-container rharhuky/spotify-api
 
 * Endpoint:
 
