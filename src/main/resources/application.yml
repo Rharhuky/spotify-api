@@ -1,0 +1,9 @@
+#spring.application.name=spotify-api
+
+spring:
+  application:
+    name: spotify-api
+
+keys:
+  client-id: ${CLIENT_ID:}
+  client-secret: ${CLIENT_SECRET:}
